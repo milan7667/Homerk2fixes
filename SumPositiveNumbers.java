@@ -9,7 +9,7 @@ public class SumPositiveNumbers {
                 sum += t;
             }
         }
-        System.out.println("Сума додатніх чисел масиву рівна " + sum);
+        System.out.println(sum);
     }
 }
 
