@@ -10,7 +10,7 @@ public class Auto {
         return speed;
     }
 
-    public static int StateEngine(int state) {
+    public static int getStateEngine(int state) {
 
         if (state == 1) {
             System.out.println("The auto is going now!");
@@ -28,7 +28,7 @@ public class Auto {
         int keepSpeed = keepSpeed(speed);
         System.out.println(keepSpeed);
         int state = 1;
-        int StateEngine = StateEngine(state);
-        System.out.println(StateEngine);
+        int getStateEngine = getStateEngine(state);
+        System.out.println(getStateEngine);
     }
 }

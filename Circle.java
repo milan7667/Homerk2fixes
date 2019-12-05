@@ -1,16 +1,17 @@
 package CursorEducation;
 
+import static java.lang.Math.pow;
+
 public class Circle {
-    public static double area(double Pi, double radius) {
-        double size = Pi * (radius * radius);
-        return size;
+    public static double getArea(double radius) {
+        return Math.PI * pow(radius, 2);
+
     }
 
     public static void main(String[] args) {
         double radius = 66.77;
-        double Pi = 3.14;
-        double area = area(radius, Pi);
+        double getArea = getArea(radius);
 
-        System.out.println(area);
+        System.out.println(getArea);
     }
 }
